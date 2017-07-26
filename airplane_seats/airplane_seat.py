@@ -80,7 +80,7 @@ def run_simulation():
 		iterations = iterations + 1
 	
 def write_results(result):
-	with open("C:\Users/Gary/Desktop/airplane_seat.csv", "a") as csvfile:
+	with open("path/to/file", "a") as csvfile:
 		scribe = csv.writer(csvfile, delimiter = ',',quotechar = '"',lineterminator = '\n')
 		scribe.writerow(result)
 		
